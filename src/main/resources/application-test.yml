@@ -1,0 +1,18 @@
+spring:
+  ai:
+    openai:
+      base-url: https://xiaoai.plus
+#      -DsocksProxyHost=127.0.0.1 -DsocksProxyPort=7890
+      #      base-url: https://api.openai.com
+      api-key: sk-r42teb6oTUUe45td3eBdC88593334028A61dDf4f903990D0
+# Knife4j配置
+knife4j:
+  #开启增强配置
+  enable: true
+  #开启生产环境屏蔽
+  production: false
+  setting:
+    language: zh_cn
+
+server:
+  port: 8082
